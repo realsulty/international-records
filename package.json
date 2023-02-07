@@ -1,0 +1,23 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d international recoreds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realsulty/international-records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realsulty/international-records/issues"
+  },
+  "homepage": "https://github.com/realsulty/international-records",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
