@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d international recoreds"
+    "deploy": "gh-pages -d projects"
   },
   "repository": {
     "type": "git",
