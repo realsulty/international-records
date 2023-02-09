@@ -9,6 +9,13 @@ body {
   background-color: #409cc7;
 }
 
+.clouds {
+  justify-content: space-between;
+  position: fixed;
+  width: 500px;
+  z-index: -1;
+}
+
 .main-header {
   margin: 1rem;
 }
@@ -51,10 +58,14 @@ body {
   color: rgb(232, 190, 3);
 }
 .statement button {
-  padding: 0.4rem;
+  padding: 0.4rem 1.8rem;
   margin: 5px 0;
   letter-spacing: 1px;
   border: none;
   color: white;
   background: rgb(60, 184, 96);
+  cursor: pointer;
+}
+.statement button:hover {
+  background: rgba(60, 184, 95, 0.721);
 }/*# sourceMappingURL=style.css.map */
