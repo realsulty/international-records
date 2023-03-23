@@ -25,7 +25,14 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
-.main-header h2 {
+.main-header .items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-header .items img {
+  width: 40px;
+}
+.main-header .items h2 {
   font-size: 15px;
   padding: 0.4rem 0;
   color: #e3d7d7;
@@ -34,8 +41,7 @@ body {
   background: rgb(109, 102, 102);
   padding: 1rem;
 }
-.main-header h2:hover {
-  transform: translatex(10px);
+.main-header .items h2:hover {
   color: #ecc904;
   background: rgba(47, 43, 43, 0.768627451);
 }
