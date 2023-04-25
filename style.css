@@ -2,11 +2,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: #409cc7;
+  font-family: "Poppins", sans-serif;
 }
 
 .clouds {
@@ -18,16 +18,14 @@ body {
 
 .main-header {
   margin: 1rem;
+  padding: 1rem 2rem;
+  display: block;
 }
 .main-header h1 {
   color: #ecc904;
   font-size: 25px;
   text-align: center;
   margin-bottom: 15px;
-}
-.main-header .items {
-  display: flex;
-  justify-content: space-evenly;
 }
 .main-header .items img {
   width: 40px;
@@ -52,7 +50,7 @@ body {
 
 .statement {
   margin: 0.5rem 1.5rem;
-  padding: 0.4rem;
+  padding: 1rem;
   background: rgb(249, 249, 249);
   border-radius: 10px;
   text-align: center;
