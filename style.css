@@ -27,10 +27,13 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
-.main-header .items img {
-  width: 40px;
+.main-header img {
+  width: 50px;
 }
-.main-header .items h2 {
+.main-header #btn {
+  display: none;
+}
+.main-header #btn h2 {
   font-size: 15px;
   padding: 0.4rem 0;
   color: #e3d7d7;
@@ -39,7 +42,7 @@ body {
   background: rgb(109, 102, 102);
   padding: 1rem;
 }
-.main-header .items h2:hover {
+.main-header #btn h2:hover {
   color: #ecc904;
   background: rgba(47, 43, 43, 0.768627451);
 }
