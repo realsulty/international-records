@@ -22,9 +22,10 @@
 
     body{
         background-color: #409cc7;
-        
-        
-            font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
+
+        //  display: flex;
+        //  flex-direction: column;
         
         }
 
@@ -152,14 +153,21 @@
     
     }
 
+
+    footer{
+        
+        background-color: rgb(141, 141, 141);
+        margin-top: 290px;
+        }
     .footer-list{
+
         a{
             text-decoration: none;
             color:#ecc904;
             }
-       margin: 0.5rem 1rem;
+    //    margin: 0.5rem 1rem;
        text-align: center;
-       display: flex;
+    //    display: flex;
        
         
         img{

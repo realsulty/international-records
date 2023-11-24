@@ -81,10 +81,13 @@ body {
   background: rgba(60, 184, 95, 0.721);
 }
 
+footer {
+  background-color: rgb(141, 141, 141);
+  margin-top: 290px;
+}
+
 .footer-list {
-  margin: 0.5rem 1rem;
   text-align: center;
-  display: flex;
 }
 .footer-list a {
   text-decoration: none;
