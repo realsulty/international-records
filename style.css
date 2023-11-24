@@ -29,6 +29,10 @@ body {
 }
 .main-header img {
   width: 50px;
+  cursor: pointer;
+}
+.main-header img:hover {
+  opacity: 85%;
 }
 .main-header #menu-items {
   display: none;
@@ -75,4 +79,18 @@ body {
 }
 .statement button:hover {
   background: rgba(60, 184, 95, 0.721);
+}
+
+.footer-list {
+  margin: 0.5rem 1rem;
+  text-align: center;
+  display: flex;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #ecc904;
+}
+.footer-list img {
+  height: 60px;
+  border-radius: 2rem;
 }/*# sourceMappingURL=style.css.map */

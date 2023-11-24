@@ -56,6 +56,16 @@
             }
                 img{
                     width: 50px;
+                    cursor: pointer;
+
+                    &:hover
+                        {
+                            opacity: 85%;
+                            }
+
+                        
+
+                   
                    
                     
                     }
@@ -141,3 +151,20 @@
     
     
     }
+
+    .footer-list{
+        a{
+            text-decoration: none;
+            color:#ecc904;
+            }
+       margin: 0.5rem 1rem;
+       text-align: center;
+       display: flex;
+       
+        
+        img{
+            height: 60px;
+            border-radius: 2rem;
+            }
+        
+        }
