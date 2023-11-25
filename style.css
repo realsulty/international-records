@@ -19,7 +19,7 @@ body {
 .main-header {
   margin: 1rem;
   padding: 1rem 2rem;
-  display: block;
+  text-align: center;
 }
 .main-header h1 {
   color: #ecc904;
@@ -39,12 +39,13 @@ body {
 }
 .main-header #menu-items h2 {
   font-size: 15px;
-  padding: 0.4rem 0;
+  align-items: center;
   color: #e3d7d7;
-  text-align: left;
-  line-height: 5px;
+  text-align: center;
+  line-height: 2px;
   background: rgb(109, 102, 102);
   padding: 1rem;
+  width: 20rem;
 }
 .main-header #menu-items h2:hover {
   color: #ecc904;
@@ -67,6 +68,13 @@ body {
 }
 .statement p {
   color: rgb(232, 190, 3);
+}
+.statement input {
+  width: 60%;
+  border-radius: 1rem;
+  border-width: 1.5px;
+  border-style: dashed;
+  border-color: #8c8c90;
 }
 .statement button {
   padding: 0.4rem 1.8rem;
@@ -96,4 +104,20 @@ footer {
 .footer-list img {
   height: 60px;
   border-radius: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  footer {
+    margin-top: 320px;
+  }
+}
+@media (min-width: 1020px) {
+  .main-header img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    margin-top: 324px;
+  }
 }/*# sourceMappingURL=style.css.map */
