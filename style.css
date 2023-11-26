@@ -92,6 +92,8 @@ body {
 footer {
   background-color: rgb(141, 141, 141);
   margin-top: 290px;
+  padding: 2em 0.5em;
+  display: block;
 }
 
 .footer-list {
