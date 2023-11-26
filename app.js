@@ -15,3 +15,16 @@ function menu() {
       mobileBtn.style.display = "flex";
     }
   }
+
+
+  const myString = new String ('developer');
+
+  x = typeof myString;
+  x = myString.length;
+//   x = myString[0].toUpperCase();
+//   z = typeof myString;
+//   z = myString.length
+//   z = myString.substring(1,9);
+x = myString.replace('d','D') // much eaiser and faster way of solving 
+
+console.log(x);
