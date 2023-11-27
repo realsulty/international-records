@@ -198,8 +198,24 @@ $desktop: 1020px; // Adjust as needed
             height: 60px;
             border-radius: 2rem;
             }
+
         
         }
+            
+            .footer-text{
+                list-style: none;
+
+                display:flex; 
+                justify-content: space-evenly;
+                margin-left: -2em;
+                margin-top: 2em;
+                 &:hover{
+                    opacity: 70%;
+                    text-decoration: underline;
+                    }
+            
+            
+                    }
 
             @media (max-width: $mobile) {
 
@@ -220,7 +236,7 @@ $desktop: 1020px; // Adjust as needed
                     .main-header{
                         
                         img{
-                    display: flex;
+                    // display: flex;
                     justify-content: center; // Horizontally center the content
                     align-items: center; // Vertically center the content
                    
