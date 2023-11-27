@@ -17,19 +17,19 @@ function menu() {
   }
 
 
-  const myString = new String ('developer');
+//   const myString = new String ('developer');
 
-  x = typeof myString;
-  x = myString.length;
-//   x = myString[0].toUpperCase();
-//   z = typeof myString; a bit longer way
-//   z = myString.length
-//   z = myString.substring(1,9);
-x = myString.replace('d','D') // much eaiser and faster way of solving 
+//   x = typeof myString;
+//   x = myString.length;
+// //   x = myString[0].toUpperCase();
+// //   z = typeof myString; a bit longer way
+// //   z = myString.length
+// //   z = myString.substring(1,9);
+// x = myString.replace('d','D') // much eaiser and faster way of solving 
 
 
 
-console.log(x); // insert print Z if used the longer method 
+// console.log(x); // insert print Z if used the longer method 
 
 // other solution 1:
 // myNewstring = myString.charAt(0).toUpperCase() + myString.substring(1); and then cosole log it 
@@ -39,3 +39,24 @@ console.log(x); // insert print Z if used the longer method
 
 // Math.round Math.floor 
 // x = Math.floor(Math.random() * 10 + 1); (this one will make number basic with no decimls))
+
+
+
+// const arr = [1,2,3,4,5]; JOB DONE $$ 
+
+// x = arr;
+// x = arr.push(6);
+// x = arr.unshift(0);
+// x = arr.reverse();
+// console.log(x);
+
+// const arr1 = [1,2,3,4,5];
+// const arr2 = [5,6,7,8,9,10]; JOB DONE 
+
+
+//  x = arr1.pop();
+
+// x = [...arr1,...arr2];
+
+
+// console.log(x);
