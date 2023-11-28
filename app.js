@@ -63,53 +63,59 @@ function menu() {
 
 
 
-const library = [
+// const library = [
 
-    {
-        title: 'MacLoovin',
-        author: 'Mac',
-        status:{
-            own: true,
-            reading: false,
-            read:false,
+//     {
+//         title: 'MacLoovin',
+//         author: 'Mac',
+//         status:{
+//             own: true,
+//             reading: false,
+//             read:false,
         
-        },
-    },
-    {
-        title: 'Big Think',
-        author: 'The Thinker',
-        status:{
-            own: true,
-            reading: false,
-            read:false,
+//         },
+//     },
+//     {
+//         title: 'Big Think',
+//         author: 'The Thinker',
+//         status:{
+//             own: true,
+//             reading: false,
+//             read:false,
         
-        },
-    },
-    {
-        title: 'Apple',
-        author: 'Steve Jobs',
-        status:{
-            own: true,
-            reading: false,
-            read: false
+//         },
+//     },
+//     {
+//         title: 'Apple',
+//         author: 'Steve Jobs',
+//         status:{
+//             own: true,
+//             reading: false,
+//             read: false
         
-        },
-    },
-];
+//         },
+//     },
+// ];
 
 // step 2 Changed the read value 
-library[0].status.read = true;
-library[1].status.read = true;
-library[2].status.read = true;
+// library[0].status.read = true;
+// library[1].status.read = true;
+// library[2].status.read = true;
 
 
-// use the curly bracket for destructruing 
-const { title : firstBook } = library[0];
+// // use the curly bracket for destructruing 
+// const { title : firstBook } = library[0];
 
-console.log(firstBook);
+// console.log(firstBook);
 
-// Turn this library into a JSON string
+// // Turn this library into a JSON string
 
-const libraryJSON = JSON.stringify(library);
+// const libraryJSON = JSON.stringify(library);
 
-console.log(libraryJSON);
+// console.log(libraryJSON);
+
+// Arrow functions
+const numbers = [1,2,3,4,5];
+
+// Arrow function callback
+numbers.forEach( n => console.log(n));
