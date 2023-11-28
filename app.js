@@ -9,10 +9,10 @@
 // This function allow you show and hide with same button
 function menu() {
     let mobileBtn = document.getElementById("menu-items");
-    if (mobileBtn.style.display === "flex") {
+    if (mobileBtn.style.display === "block") {
       mobileBtn.style.display = "none";
     } else {
-      mobileBtn.style.display = "flex";
+      mobileBtn.style.display = "block";
     }
   }
 
@@ -60,3 +60,56 @@ function menu() {
 
 
 // console.log(x);
+
+
+
+const library = [
+
+    {
+        title: 'MacLoovin',
+        author: 'Mac',
+        status:{
+            own: true,
+            reading: false,
+            read:false,
+        
+        },
+    },
+    {
+        title: 'Big Think',
+        author: 'The Thinker',
+        status:{
+            own: true,
+            reading: false,
+            read:false,
+        
+        },
+    },
+    {
+        title: 'Apple',
+        author: 'Steve Jobs',
+        status:{
+            own: true,
+            reading: false,
+            read: false
+        
+        },
+    },
+];
+
+// step 2 Changed the read value 
+library[0].status.read = true;
+library[1].status.read = true;
+library[2].status.read = true;
+
+
+// use the curly bracket for destructruing 
+const { title : firstBook } = library[0];
+
+console.log(firstBook);
+
+// Turn this library into a JSON string
+
+const libraryJSON = JSON.stringify(library);
+
+console.log(libraryJSON);

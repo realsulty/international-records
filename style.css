@@ -133,4 +133,8 @@ footer {
   footer {
     margin-top: 324px;
   }
+  img {
+    justify-content: space-evenly;
+    margin-left: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -87,6 +87,7 @@ $desktop: 1020px; // Adjust as needed
                  
                  
                  
+                 
                 
                 
             h2{ //  This was a mistake you styled the H2 Elemnt isnted of the list //
@@ -246,7 +247,13 @@ $desktop: 1020px; // Adjust as needed
                             footer{
                 
                             margin-top: 324px
+
                 }
+                            img{
+                                justify-content: space-evenly;
+                                margin-left:2rem;
+               
+                                }
                
 
     }
