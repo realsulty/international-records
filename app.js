@@ -14,7 +14,7 @@ function menu() {
     } else {
       mobileBtn.style.display = "block";
     }
-  }
+  };
 
 
 //   const myString = new String ('developer');
@@ -114,8 +114,27 @@ function menu() {
 
 // console.log(libraryJSON);
 
-// Arrow functions
-const numbers = [1,2,3,4,5];
+// // Arrow functions
+// const numbers = [1,2,3,4,5];
 
-// Arrow function callback
-numbers.forEach( n => console.log(n));
+// // Arrow function callback
+// numbers.forEach( n => console.log(n));
+
+function run() {
+   const newBack = document.querySelector('section');
+   const newDark = document.querySelector('body');
+  // newBack.className = 'darken';
+    newBack.classList.toggle('darken');
+    newDark.classList.toggle('dark');
+    // console.log(newBack.classList);
+
+    // newBack.classList.add('darken');
+
+    
+  };
+
+  // modern way of adding event listener ()
+
+  const changeBtn = document.querySelector('#click');
+
+  changeBtn.addEventListener('click', ( )=> run());
